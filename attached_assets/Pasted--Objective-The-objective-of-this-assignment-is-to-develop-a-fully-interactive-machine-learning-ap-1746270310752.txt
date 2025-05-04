@@ -1,0 +1,72 @@
+🎯 Objective
+The objective of this assignment is to develop a fully interactive machine learning application using financial datasets. Students will integrate Kragle datasets, fetch data from Yahoo Finance, implement machine learning models, and visualize the step-by-step ML workflow through a well-designed Streamlit interface.
+
+🧠 Relevant Learning Outcomes (LOs)
+LO	Description
+LO3	Develop financial models and algorithms for decision-making. (PLO 3, PLO 5)
+LO5	Visualize and interpret financial data effectively using Python tools. (PLO 1, PLO 3)
+LO8	Demonstrate self-learning skills to enhance programming capabilities for finance. (PLO 8)
+📦 Requirements
+Data Sources:
+
+Upload financial datasets from Kragle.
+Fetch real-time stock market data using Yahoo Finance API (yfinance library).
+Machine Learning Models (Choose one):
+
+Linear Regression
+Logistic Regression
+K-Means Clustering
+Python Libraries:
+
+streamlit
+pandas
+numpy
+scikit-learn
+matplotlib
+plotly
+yfinance
+Design Elements:
+
+Apply a consistent color scheme and theme.
+Add GIFs, animations, and pictures to enhance the user experience.
+Include button-based navigation, notifications, and step-by-step visualizations.
+🛠️ Task Description
+You are required to build an interactive Streamlit application following these major steps:
+
+1. Welcome Interface
+Display a welcome message with a finance-themed GIF.
+Apply a custom background color and themed buttons.
+Sidebar should allow:
+Uploading a Kragle dataset.
+Fetching Yahoo Finance stock data.
+2. Step-by-Step Machine Learning Pipeline
+Each step must be activated using a separate button and confirmed with a notification (st.success, st.info, etc.).
+
+Step	Description	Visual/Notification
+Load Data	Upload or fetch financial data.	Data preview table, load success message
+Preprocessing	Clean missing values, outliers, etc.	Display missing value stats, preprocessing notification
+Feature Engineering	Select and transform features.	Show feature importance/selection results
+Train/Test Split	Split data into training/testing sets.	Visualize split with pie chart
+Model Training	Train chosen ML model.	Notification of training completion
+Evaluation	Evaluate the model.	Display metrics and evaluation charts
+Results Visualization	Predict outcomes or show clusters.	Graphs, cluster visualizations
+3. Additional Features
+Use Plotly for interactive charts wherever possible.
+Display appropriate notifications after each stage.
+Add themed GIFs/pictures on key pages (start, end, etc.).
+(Bonus) Allow users to download the results.
+📊 Expected Deliverables
+A Jupyter Notebook (.ipynb) with complete, properly commented code.
+A Streamlit application that runs locally.
+(Optional Bonus) A deployed Streamlit Cloud link for public access.
+🎁 Bonus Points
+Allow dynamic model selection.
+Add feature importance visualization (if using Linear or Logistic Regression).
+Schedule real-time Yahoo Finance data updates.
+Downloadable model or results.
+⚡ Important Instructions
+Use consistent colors and visual themes throughout the app.
+Interactive navigation is mandatory (buttons for every major step).
+Proper error handling must be included (e.g., if no dataset is loaded).
+Submit a neat, well-commented and easy-to-navigate notebook.
+Include a brief "How to Run" note at the top of your notebook.
